@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=class\ Value
+comment0.text=\nValue\ is\ a\ (trivial)\ expression\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/04/30\n\n
+comment1.params=value
+comment1.target=Value(double)
+comment2.target=value
+comment3.params=
+comment3.target=double\ evaluate()
+numComments=4

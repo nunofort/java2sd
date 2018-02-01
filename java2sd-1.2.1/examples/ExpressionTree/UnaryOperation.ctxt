@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=class\ UnaryOperation
+comment0.text=\nA\ unary\ operation\ is\ a\ kind\ of\ arithmetic\ expression\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/04/30\n\n
+comment1.params=
+comment1.target=Expression\ getExpression()
+comment2.params=expression
+comment2.target=UnaryOperation(Expression)
+comment3.target=expression
+numComments=4

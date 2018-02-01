@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=class\ Product
+comment0.text=\nA\ product\ in\ the\ dispenser\ machine\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/05/12\n\n
+comment1.params=
+comment1.target=double\ getPrice()
+comment2.target=name
+comment3.params=name\ price
+comment3.target=Product(String,double)
+comment4.target=price
+numComments=5

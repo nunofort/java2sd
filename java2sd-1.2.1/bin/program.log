@@ -1,0 +1,6 @@
+CALL obj1 = new Sub(instance of Add, 1300)
+CALL obj1.Operation()
+RET Operation 
+CALL obj1.calc(2500,1300,-)
+RET 1200 
+RET obj1 

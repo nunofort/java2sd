@@ -1,0 +1,120 @@
+|1:CALL __BEGIN__ (RUN_PROGRAM) -> __static__Test Test.__static__main(instance_of_String[])
+[line 56] Tue Apr 02 11:18:11 WEST 2013 0.0371s
+||2:CALL __static__Test (Test) -> obj47 Test.new Test()
+[line 22] Tue Apr 02 11:18:12 WEST 2013 0.0657s
+||3:RET obj47 (Test) -> __static__Test (Test) obj47
+[line 23] Tue Apr 02 11:18:12 WEST 2013 0.0707s
+||4:CALL __static__Test (Test) -> obj47 Test.make(400,2100)
+[line 29] Tue Apr 02 11:18:12 WEST 2013 0.0788s
+|||5:CALL obj47 (Test) -> obj51 Add.new Add(400,2100)
+[line 14] Tue Apr 02 11:18:12 WEST 2013 0.0995s
+||||6:CALL obj51 (Add) -> obj51 Add.new Add()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.1036s
+||||7:RET obj51 (Add) -> obj51 (Add) obj51
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.1109s
+||||8:CALL obj51 (Add) -> obj51 Add.calc(400,2100,+)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.1184s
+||||9:RET obj51 (Add) -> obj51 (Add) 2500
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.1213s
+|||10:RET obj51 (Add) -> obj47 (Test) obj51
+[line 16] Tue Apr 02 11:18:12 WEST 2013 0.1244s
+|||11:CALL obj47 (Test) -> obj52 Sub.new Sub( obj51:Add ,1300)
+[line 22] Tue Apr 02 11:18:12 WEST 2013 0.1313s
+||||12:CALL obj52 (Sub) -> obj52 Sub.new Sub()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.1341s
+||||13:RET obj52 (Sub) -> obj52 (Sub) obj52
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.1373s
+||||14:CALL obj52 (Sub) -> obj52 Sub.calc(2500,1300,-)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.1431s
+||||15:RET obj52 (Sub) -> obj52 (Sub) 1200
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.1448s
+|||16:RET obj52 (Sub) -> obj47 (Test) obj52
+[line 24] Tue Apr 02 11:18:12 WEST 2013 0.1479s
+|||17:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1508s
+|||18:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1524s
+|||19:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1585s
+|||20:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1603s
+|||21:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1628s
+|||22:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1644s
+|||23:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1666s
+|||24:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1680s
+|||25:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1701s
+|||26:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.1715s
+|||28:CALL obj47 (Test) -> obj56 Mul.new Mul( obj52:Sub ,1000)
+[line 24] Tue Apr 02 11:18:12 WEST 2013 0.2219s
+||||29:CALL obj56 (Mul) -> obj56 Mul.new Mul()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.2249s
+||||30:RET obj56 (Mul) -> obj56 (Mul) obj56
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.2285s
+||||31:CALL obj56 (Mul) -> obj56 Mul.calc(1200,1000,*)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.2344s
+||||32:RET obj56 (Mul) -> obj56 (Mul) 1200000
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.2360s
+|||33:RET obj56 (Mul) -> obj47 (Test) obj56
+[line 29] Tue Apr 02 11:18:12 WEST 2013 0.2393s
+|||34:CALL obj47 (Test) -> obj58 Div.new Div( obj56:Mul ,100)
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.2483s
+||||35:CALL obj58 (Div) -> obj58 Div.new Div()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.2507s
+||||36:RET obj58 (Div) -> obj58 (Div) obj58
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.2543s
+||||37:CALL obj58 (Div) -> obj58 Div.calc(1200000,100,/)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.2598s
+||||38:RET obj58 (Div) -> obj58 (Div) 12000
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.2613s
+|||39:RET obj58 (Div) -> obj47 (Test) obj58
+[line 29] Tue Apr 02 11:18:12 WEST 2013 0.2650s
+|||40:CALL obj47 (Test) -> obj59 Add.new Add( obj58:Div ,1000)
+[line 24] Tue Apr 02 11:18:12 WEST 2013 0.2705s
+||||41:CALL obj59 (Add) -> obj59 Add.new Add()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.2727s
+||||42:RET obj59 (Add) -> obj59 (Add) obj59
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.2763s
+||||43:CALL obj59 (Add) -> obj59 Add.calc(12000,1000,+)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.2821s
+||||44:RET obj59 (Add) -> obj59 (Add) 13000
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.2837s
+|||45:RET obj59 (Add) -> obj47 (Test) obj59
+[line 26] Tue Apr 02 11:18:12 WEST 2013 0.2877s
+|||47:CALL obj47 (Test) -> obj47 Test.getObjectValue( obj59:Add )
+[line 50] Tue Apr 02 11:18:12 WEST 2013 0.2967s
+||||48:CALL obj47 (Test) -> obj59 Add.getResult()
+[line 34] Tue Apr 02 11:18:12 WEST 2013 0.2994s
+||||49:RET obj59 (Add) -> obj47 (Test) 13000
+[line 34] Tue Apr 02 11:18:12 WEST 2013 0.3009s
+|||50:RET obj47 (Test) -> obj47 (Test) 13000
+[line 50] Tue Apr 02 11:18:12 WEST 2013 0.3023s
+|||51:CALL obj47 (Test) -> obj52 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.3044s
+|||52:RET obj52 (Sub) -> obj47 (Test) 1200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.3061s
+|||53:CALL obj47 (Test) -> obj60 Sub.new Sub(1200,1000)
+[line 12] Tue Apr 02 11:18:12 WEST 2013 0.3118s
+||||54:CALL obj60 (Sub) -> obj60 Sub.new Sub()
+[line 13] Tue Apr 02 11:18:12 WEST 2013 0.3143s
+||||55:RET obj60 (Sub) -> obj60 (Sub) obj60
+[line 15] Tue Apr 02 11:18:12 WEST 2013 0.3179s
+||||56:CALL obj60 (Sub) -> obj60 Sub.calc(1200,1000,-)
+[line 19] Tue Apr 02 11:18:12 WEST 2013 0.3239s
+||||57:RET obj60 (Sub) -> obj60 (Sub) 200
+[line 27] Tue Apr 02 11:18:12 WEST 2013 0.3255s
+|||58:RET obj60 (Sub) -> obj47 (Test) obj60
+[line 14] Tue Apr 02 11:18:12 WEST 2013 0.3292s
+|||59:CALL obj47 (Test) -> obj60 Sub.getResult()
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.3315s
+|||60:RET obj60 (Sub) -> obj47 (Test) 200
+[line 31] Tue Apr 02 11:18:12 WEST 2013 0.3331s
+||61:RET obj47 (Test) -> __static__Test (Test) 200
+[line 45] Tue Apr 02 11:18:12 WEST 2013 0.3371s
+|62:RET __static__Test (Test) -> __BEGIN__ (RUN_PROGRAM) void
+[line 61] Tue Apr 02 11:18:12 WEST 2013 0.3409s

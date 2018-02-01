@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sd version="1.0" lang="java" date="Mon Jun 07 19:05:57 WEST 2010" creator="JAVA Program to Sequence Diagram Generator">
+<object id="1" name="__static__SD" class="pt.ipbeja.estig.sd.SD" />
+<object id="2" name="obj66" class="pt.ipbeja.estig.sd.SD" />
+<object id="3" name="obj113" class="pt.ipbeja.estig.sd.Diagram" />
+<object id="4" name="obj126" class="pt.ipbeja.estig.sd.XMLLoader" />
+<arrow type="CALL" id="18" ref="0" methodType="__normal__" >
+  <sender id="1" />
+  <receiver id="2" />
+  <label> loadXML('SD1.xml') </label>
+<extrainfo> [line 457] Mon Jun 07 19:05:56 WEST 2010 0.4139s</extrainfo>
+</arrow>
+<arrow type="CALL" id="19" ref="20" methodType="__normal__" >
+  <sender id="2" />
+  <receiver id="3" />
+  <label> clear() </label>
+<extrainfo> [line 153] Mon Jun 07 19:05:56 WEST 2010 0.4179s</extrainfo>
+</arrow>
+<arrow type="RET" id="20" ref="19" isVoid="true">
+  <sender id="3" />
+  <receiver id="2" />
+  <label> return void </label>
+<extrainfo>[line 156] Mon Jun 07 19:05:56 WEST 2010 0.4192s</extrainfo>
+</arrow>
+<arrow type="CALL" id="21" ref="22" methodType="__normal__" creation="1">
+  <sender id="2" />
+  <receiver id="4" />
+  <label> new XMLLoader() </label>
+<extrainfo> [line 20] Mon Jun 07 19:05:56 WEST 2010 0.4703s</extrainfo>
+</arrow>
+<arrow type="RET" id="22" ref="21" isVoid="false">
+  <sender id="4" />
+  <receiver id="2" />
+  <label> return obj126 </label>
+<extrainfo>[line 20] Mon Jun 07 19:05:56 WEST 2010 0.4824s</extrainfo>
+</arrow>
+<arrow type="CALL" id="23" ref="24" methodType="__normal__" >
+  <sender id="2" />
+  <receiver id="4" />
+  <label> setDiagram( obj113:Diagram ) </label>
+<extrainfo> [line 43] Mon Jun 07 19:05:56 WEST 2010 0.4883s</extrainfo>
+</arrow>
+<arrow type="RET" id="24" ref="23" isVoid="true">
+  <sender id="4" />
+  <receiver id="2" />
+  <label> return void </label>
+<extrainfo>[line 44] Mon Jun 07 19:05:56 WEST 2010 0.4912s</extrainfo>
+</arrow>
+<arrow type="CALL" id="25" ref="0" methodType="__normal__" >
+  <sender id="2" />
+  <receiver id="4" />
+  <label> process('SD1.xml') </label>
+<extrainfo> [line 164] Mon Jun 07 19:05:57 WEST 2010 0.5170s</extrainfo>
+</arrow>
+</sd>

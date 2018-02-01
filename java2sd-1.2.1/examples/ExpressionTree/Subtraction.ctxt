@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=class\ Subtraction
+comment0.text=\nSubtraction\ is\ a\ binary\ operation\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/04/30\n\n
+comment1.params=left\ right
+comment1.target=Subtraction(Expression,Expression)
+comment2.params=
+comment2.target=double\ evaluate()
+numComments=3

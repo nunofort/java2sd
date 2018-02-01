@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: pt.ipbeja.estig.sd.SD
+Name: pt/ipbeja/estig/sd/SD.class
+Class-Path: /usr/lib/jvm/java-sun/lib/tools.jar

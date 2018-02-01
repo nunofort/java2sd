@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sd version="1.0" lang="java" date="Tue Apr 02 01:35:20 WEST 2013" creator="JAVA Program to Sequence Diagram Generator">
+<object id="1" name="__BEGIN__" class="RUN_PROGRAM" />
+<object id="2" name="__static__Test" class="pt.ipbeja.estig.test.Test" />
+<object id="3" name="obj47" class="pt.ipbeja.estig.test.Test" />
+<object id="4" name="obj51" class="pt.ipbeja.estig.test.Add" />
+<object id="5" name="obj52" class="pt.ipbeja.estig.test.Sub" />
+<object id="6" name="obj56" class="pt.ipbeja.estig.test.Mul" />
+<object id="7" name="obj58" class="pt.ipbeja.estig.test.Div" />
+<object id="8" name="obj59" class="pt.ipbeja.estig.test.Add" />
+<object id="9" name="obj60" class="pt.ipbeja.estig.test.Sub" />
+<arrow type="CALL" id="1" ref="62" methodType="__static__" >
+  <sender id="1" />
+  <receiver id="2" />
+  <label> __static__main(instance_of_String[]) </label>
+<extrainfo> [line 56] Tue Apr 02 01:35:20 WEST 2013 0.0400s</extrainfo>
+</arrow>
+<arrow type="CALL" id="2" ref="3" methodType="__normal__" creation="1">
+  <sender id="2" />
+  <receiver id="3" />
+  <label> new Test() </label>
+<extrainfo> [line 22] Tue Apr 02 01:35:20 WEST 2013 0.0680s</extrainfo>
+</arrow>
+<arrow type="RET" id="3" ref="2" isVoid="false">
+  <sender id="3" />
+  <receiver id="2" />
+  <label> return obj47 </label>
+<extrainfo>[line 23] Tue Apr 02 01:35:20 WEST 2013 0.0730s</extrainfo>
+</arrow>
+<arrow type="CALL" id="4" ref="61" methodType="__normal__" >
+  <sender id="2" />
+  <receiver id="3" />
+  <label> make(400,2100) </label>
+<extrainfo> [line 29] Tue Apr 02 01:35:20 WEST 2013 0.0809s</extrainfo>
+</arrow>
+<arrow type="CALL" id="5" ref="10" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="4" />
+  <label> new Add(400,2100) </label>
+<extrainfo> [line 14] Tue Apr 02 01:35:20 WEST 2013 0.0999s</extrainfo>
+</arrow>
+<arrow type="CALL" id="6" ref="7" methodType="__normal__" creation="2">
+  <sender id="4" />
+  <receiver id="4" />
+  <label> new Add() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.1042s</extrainfo>
+</arrow>
+<arrow type="RET" id="7" ref="6" isVoid="false">
+  <sender id="4" />
+  <receiver id="4" />
+  <label> return obj51 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.1108s</extrainfo>
+</arrow>
+<arrow type="CALL" id="8" ref="9" methodType="__normal__" >
+  <sender id="4" />
+  <receiver id="4" />
+  <label> calc(400,2100,+) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.1180s</extrainfo>
+</arrow>
+<arrow type="RET" id="9" ref="8" isVoid="false">
+  <sender id="4" />
+  <receiver id="4" />
+  <label> return 2500 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.1210s</extrainfo>
+</arrow>
+<arrow type="RET" id="10" ref="5" isVoid="false">
+  <sender id="4" />
+  <receiver id="3" />
+  <label> return obj51 </label>
+<extrainfo>[line 16] Tue Apr 02 01:35:20 WEST 2013 0.1243s</extrainfo>
+</arrow>
+<arrow type="CALL" id="11" ref="16" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="5" />
+  <label> new Sub( obj51:Add ,1300) </label>
+<extrainfo> [line 22] Tue Apr 02 01:35:20 WEST 2013 0.1310s</extrainfo>
+</arrow>
+<arrow type="CALL" id="12" ref="13" methodType="__normal__" creation="2">
+  <sender id="5" />
+  <receiver id="5" />
+  <label> new Sub() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.1337s</extrainfo>
+</arrow>
+<arrow type="RET" id="13" ref="12" isVoid="false">
+  <sender id="5" />
+  <receiver id="5" />
+  <label> return obj52 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.1380s</extrainfo>
+</arrow>
+<arrow type="CALL" id="14" ref="15" methodType="__normal__" >
+  <sender id="5" />
+  <receiver id="5" />
+  <label> calc(2500,1300,-) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.1437s</extrainfo>
+</arrow>
+<arrow type="RET" id="15" ref="14" isVoid="false">
+  <sender id="5" />
+  <receiver id="5" />
+  <label> return 1200 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.1454s</extrainfo>
+</arrow>
+<arrow type="RET" id="16" ref="11" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return obj52 </label>
+<extrainfo>[line 24] Tue Apr 02 01:35:20 WEST 2013 0.1484s</extrainfo>
+</arrow>
+<arrow type="CALL" id="17" ref="18" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.1512s</extrainfo>
+</arrow>
+<arrow type="RET" id="18" ref="17" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.1529s</extrainfo>
+</arrow>
+<arrow type="CALL" id="19" ref="20" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.1627s</extrainfo>
+</arrow>
+<arrow type="RET" id="20" ref="19" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.1644s</extrainfo>
+</arrow>
+<arrow type="CALL" id="21" ref="22" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.1665s</extrainfo>
+</arrow>
+<arrow type="RET" id="22" ref="21" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.1681s</extrainfo>
+</arrow>
+<arrow type="CALL" id="23" ref="24" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.1705s</extrainfo>
+</arrow>
+<arrow type="RET" id="24" ref="23" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.1720s</extrainfo>
+</arrow>
+<arrow type="CALL" id="25" ref="26" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.1743s</extrainfo>
+</arrow>
+<arrow type="RET" id="26" ref="25" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.1756s</extrainfo>
+</arrow>
+<arrow type="CALL" id="28" ref="33" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="6" />
+  <label> new Mul( obj52:Sub ,1000) </label>
+<extrainfo> [line 24] Tue Apr 02 01:35:20 WEST 2013 0.2251s</extrainfo>
+</arrow>
+<arrow type="CALL" id="29" ref="30" methodType="__normal__" creation="2">
+  <sender id="6" />
+  <receiver id="6" />
+  <label> new Mul() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.2276s</extrainfo>
+</arrow>
+<arrow type="RET" id="30" ref="29" isVoid="false">
+  <sender id="6" />
+  <receiver id="6" />
+  <label> return obj56 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.2307s</extrainfo>
+</arrow>
+<arrow type="CALL" id="31" ref="32" methodType="__normal__" >
+  <sender id="6" />
+  <receiver id="6" />
+  <label> calc(1200,1000,*) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.2374s</extrainfo>
+</arrow>
+<arrow type="RET" id="32" ref="31" isVoid="false">
+  <sender id="6" />
+  <receiver id="6" />
+  <label> return 1200000 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.2390s</extrainfo>
+</arrow>
+<arrow type="RET" id="33" ref="28" isVoid="false">
+  <sender id="6" />
+  <receiver id="3" />
+  <label> return obj56 </label>
+<extrainfo>[line 29] Tue Apr 02 01:35:20 WEST 2013 0.2424s</extrainfo>
+</arrow>
+<arrow type="CALL" id="34" ref="39" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="7" />
+  <label> new Div( obj56:Mul ,100) </label>
+<extrainfo> [line 27] Tue Apr 02 01:35:20 WEST 2013 0.2509s</extrainfo>
+</arrow>
+<arrow type="CALL" id="35" ref="36" methodType="__normal__" creation="2">
+  <sender id="7" />
+  <receiver id="7" />
+  <label> new Div() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.2536s</extrainfo>
+</arrow>
+<arrow type="RET" id="36" ref="35" isVoid="false">
+  <sender id="7" />
+  <receiver id="7" />
+  <label> return obj58 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.2573s</extrainfo>
+</arrow>
+<arrow type="CALL" id="37" ref="38" methodType="__normal__" >
+  <sender id="7" />
+  <receiver id="7" />
+  <label> calc(1200000,100,/) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.2636s</extrainfo>
+</arrow>
+<arrow type="RET" id="38" ref="37" isVoid="false">
+  <sender id="7" />
+  <receiver id="7" />
+  <label> return 12000 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.2651s</extrainfo>
+</arrow>
+<arrow type="RET" id="39" ref="34" isVoid="false">
+  <sender id="7" />
+  <receiver id="3" />
+  <label> return obj58 </label>
+<extrainfo>[line 29] Tue Apr 02 01:35:20 WEST 2013 0.2686s</extrainfo>
+</arrow>
+<arrow type="CALL" id="40" ref="45" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="8" />
+  <label> new Add( obj58:Div ,1000) </label>
+<extrainfo> [line 24] Tue Apr 02 01:35:20 WEST 2013 0.2745s</extrainfo>
+</arrow>
+<arrow type="CALL" id="41" ref="42" methodType="__normal__" creation="2">
+  <sender id="8" />
+  <receiver id="8" />
+  <label> new Add() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.2767s</extrainfo>
+</arrow>
+<arrow type="RET" id="42" ref="41" isVoid="false">
+  <sender id="8" />
+  <receiver id="8" />
+  <label> return obj59 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.2803s</extrainfo>
+</arrow>
+<arrow type="CALL" id="43" ref="44" methodType="__normal__" >
+  <sender id="8" />
+  <receiver id="8" />
+  <label> calc(12000,1000,+) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.2863s</extrainfo>
+</arrow>
+<arrow type="RET" id="44" ref="43" isVoid="false">
+  <sender id="8" />
+  <receiver id="8" />
+  <label> return 13000 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.2877s</extrainfo>
+</arrow>
+<arrow type="RET" id="45" ref="40" isVoid="false">
+  <sender id="8" />
+  <receiver id="3" />
+  <label> return obj59 </label>
+<extrainfo>[line 26] Tue Apr 02 01:35:20 WEST 2013 0.2911s</extrainfo>
+</arrow>
+<arrow type="CALL" id="47" ref="50" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="3" />
+  <label> getObjectValue( obj59:Add ) </label>
+<extrainfo> [line 50] Tue Apr 02 01:35:20 WEST 2013 0.3001s</extrainfo>
+</arrow>
+<arrow type="CALL" id="48" ref="49" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="8" />
+  <label> getResult() </label>
+<extrainfo> [line 34] Tue Apr 02 01:35:20 WEST 2013 0.3030s</extrainfo>
+</arrow>
+<arrow type="RET" id="49" ref="48" isVoid="false">
+  <sender id="8" />
+  <receiver id="3" />
+  <label> return 13000 </label>
+<extrainfo>[line 34] Tue Apr 02 01:35:20 WEST 2013 0.3043s</extrainfo>
+</arrow>
+<arrow type="RET" id="50" ref="47" isVoid="false">
+  <sender id="3" />
+  <receiver id="3" />
+  <label> return 13000 </label>
+<extrainfo>[line 50] Tue Apr 02 01:35:20 WEST 2013 0.3057s</extrainfo>
+</arrow>
+<arrow type="CALL" id="51" ref="52" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="5" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.3077s</extrainfo>
+</arrow>
+<arrow type="RET" id="52" ref="51" isVoid="false">
+  <sender id="5" />
+  <receiver id="3" />
+  <label> return 1200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.3090s</extrainfo>
+</arrow>
+<arrow type="CALL" id="53" ref="58" methodType="__normal__" creation="1">
+  <sender id="3" />
+  <receiver id="9" />
+  <label> new Sub(1200,1000) </label>
+<extrainfo> [line 12] Tue Apr 02 01:35:20 WEST 2013 0.3148s</extrainfo>
+</arrow>
+<arrow type="CALL" id="54" ref="55" methodType="__normal__" creation="2">
+  <sender id="9" />
+  <receiver id="9" />
+  <label> new Sub() </label>
+<extrainfo> [line 13] Tue Apr 02 01:35:20 WEST 2013 0.3169s</extrainfo>
+</arrow>
+<arrow type="RET" id="55" ref="54" isVoid="false">
+  <sender id="9" />
+  <receiver id="9" />
+  <label> return obj60 </label>
+<extrainfo>[line 15] Tue Apr 02 01:35:20 WEST 2013 0.3211s</extrainfo>
+</arrow>
+<arrow type="CALL" id="56" ref="57" methodType="__normal__" >
+  <sender id="9" />
+  <receiver id="9" />
+  <label> calc(1200,1000,-) </label>
+<extrainfo> [line 19] Tue Apr 02 01:35:20 WEST 2013 0.3275s</extrainfo>
+</arrow>
+<arrow type="RET" id="57" ref="56" isVoid="false">
+  <sender id="9" />
+  <receiver id="9" />
+  <label> return 200 </label>
+<extrainfo>[line 27] Tue Apr 02 01:35:20 WEST 2013 0.3292s</extrainfo>
+</arrow>
+<arrow type="RET" id="58" ref="53" isVoid="false">
+  <sender id="9" />
+  <receiver id="3" />
+  <label> return obj60 </label>
+<extrainfo>[line 14] Tue Apr 02 01:35:20 WEST 2013 0.3326s</extrainfo>
+</arrow>
+<arrow type="CALL" id="59" ref="60" methodType="__normal__" >
+  <sender id="3" />
+  <receiver id="9" />
+  <label> getResult() </label>
+<extrainfo> [line 31] Tue Apr 02 01:35:20 WEST 2013 0.3348s</extrainfo>
+</arrow>
+<arrow type="RET" id="60" ref="59" isVoid="false">
+  <sender id="9" />
+  <receiver id="3" />
+  <label> return 200 </label>
+<extrainfo>[line 31] Tue Apr 02 01:35:20 WEST 2013 0.3363s</extrainfo>
+</arrow>
+<arrow type="RET" id="61" ref="4" isVoid="false">
+  <sender id="3" />
+  <receiver id="2" />
+  <label> return 200 </label>
+<extrainfo>[line 45] Tue Apr 02 01:35:20 WEST 2013 0.3408s</extrainfo>
+</arrow>
+<arrow type="RET" id="62" ref="1" isVoid="true">
+  <sender id="2" />
+  <receiver id="1" />
+  <label> return void </label>
+<extrainfo>[line 61] Tue Apr 02 01:35:20 WEST 2013 0.3444s</extrainfo>
+</arrow>
+</sd>

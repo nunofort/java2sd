@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ Dispenser
+comment1.target=moneyReceived
+comment2.target=selected
+comment3.params=location
+comment3.target=void\ selectLocation(Integer)
+comment3.text=selects\ a\ product\ location\ \n
+comment4.params=money
+comment4.target=void\ insertMoney(double)
+comment4.text=accepts\ money\ received\ and\ increments\ the\nquantity\ of\ received\ money\n\n
+comment5.params=
+comment5.target=double\ sell()
+comment5.text=removes\ product\ from\ location\ and\ returns\ the\ change\ \n
+comment6.params=location\ product
+comment6.target=void\ addProduct(Integer,Product)
+comment6.text=adds\ a\ new\ product\ to\ be\ sold\ by\ the\ dispenser\ \n
+comment7.target=products
+comment8.params=
+comment8.target=Dispenser()
+comment8.text=\ncreates\ an\ empty\ dispenser\ with\nno\ received\ money\ and\ no\ selected\ location\n\n
+comment9.params=
+comment9.target=void\ cancel()
+comment9.text=returns\ money\ received\ and\nunselects\ the\ location\n\n
+numComments=10

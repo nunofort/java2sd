@@ -1,0 +1,20 @@
+
+1.2.1 Some directory clean ups
+
+1.2 XMLLoader fix
+
+1.1 Distribution package issues fix and a few additions 
+    - Use JAVA instalation path ($JAVA_HOME) variable in Makefile
+    - Move backup files to another place (eclipse issue)
+    - Help screen, more information on specific application parameters 
+    - parameter(-cp) to search for the java application class paths
+
+    - SDControl class, sd_control variable in file SD.ini 
+      for easy controlling diagram construction inside the user application
+      SDControl.on() and SDControl.off()
+      NOTE: Support for PIC Format Only, but may work with other formats too!  
+
+    - Possibility to invoke a Class Method of an Application 
+      (this is an experimental feature) 
+      (see -call parameter) 
+

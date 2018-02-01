@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=class\ Sqrt
+comment0.text=\nSquare\ root\ is\ a\ unary\ operation/function\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/04/30\n\n
+comment1.params=expression
+comment1.target=Sqrt(Expression)
+comment2.params=
+comment2.target=double\ evaluate()
+numComments=3

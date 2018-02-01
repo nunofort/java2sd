@@ -1,0 +1,114 @@
+.PS
+
+# UML Sequence Diagrams Macros
+copy "sequence.pic";
+
+# Define the objects
+pobject(O1);
+actor(O1," ");
+class(O2,"Test");
+pobject(O3,"obj47:Test");
+pobject(O4,"obj51:Add");
+pobject(O5,"obj52:Sub");
+pobject(O6,"obj56:Mul");
+pobject(O7,"obj58:Div");
+pobject(O8,"obj59:Add");
+pobject(O9,"obj60:Sub");
+
+step();
+
+# Message sequences
+message(O1,O2,"__static__main(instance_of_String[])");
+active(O2);
+cmessage(O2,O3,"obj47:Test","new Test()");
+active(O3);
+inactive(O3);
+message(O2,O3,"make(400,2100)");
+active(O3);
+cmessage(O3,O4,"obj51:Add","new Add(400,2100)");
+active(O4);
+message(O4,O4,"new Add()");
+message(O4,O4,"calc(400,2100,+)");
+recrmessage(O4,O4,"return 2500");
+inactive(O4);
+cmessage(O3,O5,"obj52:Sub","new Sub( obj51:Add ,1300)");
+active(O5);
+message(O5,O5,"new Sub()");
+message(O5,O5,"calc(2500,1300,-)");
+recrmessage(O5,O5,"return 1200");
+inactive(O5);
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+cmessage(O3,O6,"obj56:Mul","new Mul( obj52:Sub ,1000)");
+active(O6);
+message(O6,O6,"new Mul()");
+message(O6,O6,"calc(1200,1000,*)");
+recrmessage(O6,O6,"return 1200000");
+inactive(O6);
+cmessage(O3,O7,"obj58:Div","new Div( obj56:Mul ,100)");
+active(O7);
+message(O7,O7,"new Div()");
+message(O7,O7,"calc(1200000,100,/)");
+recrmessage(O7,O7,"return 12000");
+inactive(O7);
+cmessage(O3,O8,"obj59:Add","new Add( obj58:Div ,1000)");
+active(O8);
+message(O8,O8,"new Add()");
+message(O8,O8,"calc(12000,1000,+)");
+recrmessage(O8,O8,"return 13000");
+inactive(O8);
+message(O3,O3,"getObjectValue( obj59:Add )");
+message(O3,O8,"getResult()");
+active(O8);
+rmessage(O8,O3,"return 13000");
+inactive(O8);
+recrmessage(O3,O3,"return 13000");
+message(O3,O5,"getResult()");
+active(O5);
+rmessage(O5,O3,"return 1200");
+inactive(O5);
+cmessage(O3,O9,"obj60:Sub","new Sub(1200,1000)");
+active(O9);
+message(O9,O9,"new Sub()");
+message(O9,O9,"calc(1200,1000,-)");
+recrmessage(O9,O9,"return 200");
+inactive(O9);
+message(O3,O9,"getResult()");
+active(O9);
+rmessage(O9,O3,"return 200");
+inactive(O9);
+rmessage(O3,O2,"return 200");
+inactive(O3);
+inactive(O2);
+
+step();
+
+complete(O9);
+complete(O8);
+complete(O7);
+complete(O6);
+complete(O5);
+complete(O4);
+complete(O3);
+complete(O2);
+complete(O1);
+
+.PE

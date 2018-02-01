@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=class\ IntArrayShowCaseTest
+comment0.text=\nTests\ IntArrayShowCase\ class.\n\n@author\ Joao\ Paulo\ Barros\n@version\ 2005-04-21\n\n
+comment1.params=
+comment1.target=void\ multiplyTest()
+comment10.params=
+comment10.target=void\ sumTest()
+comment11.params=
+comment11.target=IntArrayShowCaseTest()
+comment2.params=
+comment2.target=void\ insertionTest()
+comment3.params=
+comment3.target=void\ invertTest()
+comment4.params=
+comment4.target=void\ indexOfTest()
+comment5.params=
+comment5.target=void\ containsTest()
+comment6.target=obj
+comment7.params=
+comment7.target=void\ maxTest()
+comment8.params=
+comment8.target=void\ removeTest()
+comment9.params=
+comment9.target=void\ minTest()
+numComments=12

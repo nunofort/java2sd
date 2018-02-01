@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=interface\ Expression
+comment0.text=\nInterface\ for\ an\ arithmetic\ expression\ tree\ evaluation\n@author\ Joao\ Paulo\ Barros\n@version\ 2005/04/30\n\n
+comment1.params=
+comment1.target=double\ evaluate()
+numComments=2
