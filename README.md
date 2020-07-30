@@ -201,6 +201,7 @@ Examples:
 ---------
 
 ![alt text](https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic001.jpeg?raw=true)
+[[https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic001.jpeg]]
 
 https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic.pdf
 
