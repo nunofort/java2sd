@@ -201,10 +201,12 @@ Examples:
 ---------
 
 ![IMAGE](output.pic001.png)
-![IMAGE](https://github.com/nunofort/java2sd/output.pic001.jpg)
+
+![IMAGE](https://github.com/nunofort/java2sd/blob/master/output.pic001.jpg)
 
 [PDF](output.pic.pdf)
-[PDF](https://github.com/nunofort/java2sd/master/output.pic.pdf)
+
+[PDF](https://github.com/nunofort/java2sd/blob/master/output.pic.pdf)
 
 Contact: 
 --------
