@@ -201,7 +201,6 @@ Examples:
 ---------
 
 ![IMAGE](https://github.com/nunofort/java2sd/output.pic001.jpg)
-![IMAGE](output.pic001.jpg)
 ![IMAGE](output.pic001.png)
 
 https://github.com/nunofort/java2sd/master/output.pic.pdf
