@@ -197,6 +197,12 @@ Exception in thread "main" java.lang.Error: Target VM failed to initialize: VM i
 >>
 VM at init go check the machine hostname (laptop), if the address is not correct in /etc/hosts and available it simply exit with this error.
 
+Examples:
+---------
+
+https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic001.jpeg
+
+https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic.pdf
 
 Contact: 
 --------

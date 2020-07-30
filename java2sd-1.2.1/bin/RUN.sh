@@ -16,3 +16,10 @@ $JAVA_BIN -d64 -cp "${JAVA_HOME}/lib/tools.jar:." pt/ipbeja/estig/sd/SD -from pt
 
 #$JAVA_BIN -cp "${JAVA_HOME}/lib/tools.jar:." pt/ipbeja/estig/test/Test
 
+#pstopnm output.pic.ps
+
+#pnmtojpeg output.pic001.ppm >output.pic001.jpeg
+
+#ps2pdf output.pic.ps
+
+
