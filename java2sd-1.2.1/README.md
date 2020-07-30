@@ -200,8 +200,7 @@ VM at init go check the machine hostname (laptop), if the address is not correct
 Examples:
 ---------
 
-![alt text](https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic001.jpeg?raw=true)
-[[https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic001.jpeg]]
+![alt text](https://github.com/nunofort/java2sd/master/java2sd-1.2.1/output.pic001.jpg)
 
 https://github.com/nunofort/java2sd/java2sd-1.2.1/output.pic.pdf
 
